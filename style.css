@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+#main{
+    width: 1366px;
+    height: 510px;
+    background-color: grey;
+}
+
+#field{
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    transform: translate(0,110px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+#mistakes{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: white;
+    font-size: 13pt;
+    transform: translate(170px,105px);
+}
+
+#alertText{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19pt;
+}
